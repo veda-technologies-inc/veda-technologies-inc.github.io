@@ -749,10 +749,6 @@ section {
 .founders {
     background: #040c06;
     padding: 2rem 0;
-    background-image:
-        linear-gradient(#bedc7f14 1px, transparent 1px),
-        linear-gradient(90deg, #bedc7f14 1px, transparent 1px);
-    background-size: 50px 50px;
 }
 
 .founders-grid {
@@ -1157,7 +1153,7 @@ section {
 
 .founder-card {
     display: grid;
-    grid-template-columns: 400px 1fr;
+    /* grid-template-columns: 400px 1fr; */
     gap: 4rem;
     align-items: start;
     margin-bottom: 3rem;
